@@ -1,0 +1,60 @@
+body{
+    background: brown;
+}
+
+header img{width: 200px;
+
+}
+
+
+
+.bg-blanco{background: white;}
+
+/*h2{text-align: center;}*/
+
+
+
+#historia small{color:red;}
+
+#historia mark{background:yellow;}
+
+
+/*discos table{border: solid 1px red;}*/
+
+#discos table{cursor: crosshair;}
+
+#discos table th{background: blue;}
+
+
+#discos .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  } 
+
+
+
+  #discos .jugando p:nth-of-type(odd){color: red;}
+
+  #discos .jugando p:first-child{background: turquoise;}
+
+  #discos .jugando p:last-child{background: turquoise;}
+
+ #discos .form-control{
+     border-radius: 0;
+     transition: all 0.3s;
+    }
+
+#discos input:focus{
+    border-radius: 1.5em;
+}
+
+  #discos input:focus{
+      background: cadetblue;
+      color: brown;
+      border-radius: 0.5rem;
+  }
+
+
+
+footer{
+    height: 200px;
+}
